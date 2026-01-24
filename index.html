@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Mobil Box</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background: #f3f4f6;
+      }
+    </style>
+  </head>
+  <body class="h-screen w-full flex items-center gap-20 justify-center">
+    <div class="flex items-start gap-20">
+      <div class="relative">
+        <div
+          class="relative w-[300px] h-[126px] bg-blue-500 rounded-tr-[70px] flex flex-col shadow-lg justify-between p-2"
+        >
+          <div class="flex items-start gap-2 w-full overflow-hidden">
+            <div class="bg-white h-[60px] grow"></div>
+            <div class="bg-white rounded-tr-[1000px] h-[60px] w-[60px]"></div>
+          </div>
+
+          <div class="flex justify-between items-center w-full">
+            <div class="flex items-center gap-2">
+              <div class="w-[30px] -mb-5 h-[30px] rounded-full bg-black"></div>
+              <div class="w-[30px] -mb-5 h-[30px] rounded-full bg-black"></div>
+            </div>
+            <div class="w-[30px] -mb-5 h-[30px] rounded-full bg-black"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center flex-col">
+        <div
+          class="h-[100px] rounded-md w-[50px] gap-2 bg-black flex justify-center flex-col items-center p-1"
+        >
+          <div class="bg-red-600 h-[20px] w-[20px] rounded-full"></div>
+          <div class="bg-yellow-600 h-[20px] w-[20px] rounded-full"></div>
+          <div class="bg-green-600 h-[20px] w-[20px] rounded-full"></div>
+        </div>
+        <div class="h-[100px] w-[7px] bg-black"></div>
+      </div>
+    </div>
+  </body>
+</html>
